@@ -3944,6 +3944,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -11, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -10, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -4145,6 +4155,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 10, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -12, y: -1, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 1
@@ -6508,19 +6528,19 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 16
     m_Data: {fileID: 11400000, guid: 5643476fcba8bfd44bbb751095af0faf, type: 2}
-  - m_RefCount: 330
+  - m_RefCount: 332
     m_Data: {fileID: 11400000, guid: 7de289dc46bd9a348ac52258dd7bec4e, type: 2}
   - m_RefCount: 20
     m_Data: {fileID: 11400000, guid: caec6f6492d648243953c54c78d22726, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 16
     m_Data: {fileID: -4684333735789482159, guid: 5f649a6f6eacfc946b7174e6be7eb348, type: 3}
-  - m_RefCount: 330
+  - m_RefCount: 332
     m_Data: {fileID: 7223950226953391895, guid: 5f649a6f6eacfc946b7174e6be7eb348, type: 3}
   - m_RefCount: 20
     m_Data: {fileID: -8377130690987618698, guid: 5f649a6f6eacfc946b7174e6be7eb348, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 366
+  - m_RefCount: 368
     m_Data:
       e00: 1
       e01: 0
@@ -6539,7 +6559,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 366
+  - m_RefCount: 368
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1

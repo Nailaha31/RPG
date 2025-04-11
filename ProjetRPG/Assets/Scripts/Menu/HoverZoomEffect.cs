@@ -10,6 +10,11 @@ public class HoverZoomEffect : MonoBehaviour, IPointerEnterHandler, IPointerExit
     private Vector3 originalScale;
     private Tween currentTween;
 
+private void OnDestroy()
+{
+    currentTween?.Kill();
+}
+
     void Start()
     {
         originalScale = transform.localScale;
