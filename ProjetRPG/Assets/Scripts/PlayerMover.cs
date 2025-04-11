@@ -47,13 +47,13 @@ public class PlayerMoverV2 : NetworkBehaviour
         }
 
         if (highlightTile == null)
-        {
-            highlightTile = Resources.Load<Tile>("Tile_Highlight");
-            if (highlightTile == null)
-                Debug.LogWarning("⚠️ highlightTile introuvable dans Resources !");
-            else
-                Debug.Log("✅ highlightTile chargé dynamiquement !");
-        }
+{
+    highlightTile = Resources.Load<Tile>("Tile_Highlight");
+    if (highlightTile == null)
+        Debug.LogError("⚠️ highlightTile introuvable dans Resources !");
+    else
+        Debug.Log("✅ highlightTile chargé dynamiquement : " + highlightTile.name);
+}
 
         GameObject highlight = GameObject.Find("Tilemap_Highlight");
         if (highlight != null)

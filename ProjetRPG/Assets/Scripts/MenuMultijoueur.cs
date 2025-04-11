@@ -16,7 +16,7 @@ public class MenuMultijoueur : MonoBehaviour
         }
 
         NetworkManager.Singleton.StartHost(); // démarre le réseau
-        NetworkManager.Singleton.SceneManager.LoadScene("Map_0_0", LoadSceneMode.Single); // charge via le réseau
+        NetworkManager.Singleton.SceneManager.LoadScene("Spawn_0_0", LoadSceneMode.Single); // charge via le réseau
     }
 
     public void Rejoindre()
